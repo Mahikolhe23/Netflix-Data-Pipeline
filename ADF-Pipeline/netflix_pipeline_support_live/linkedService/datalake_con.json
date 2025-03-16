@@ -1,0 +1,11 @@
+{
+    "name": "datalake_con",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "https://netflixprojectmk.dfs.core.windows.net/"
+        }
+    }
+}
